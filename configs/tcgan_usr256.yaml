@@ -1,0 +1,73 @@
+# training configs
+status: train
+name: tcgan_usr256
+train_batch_size: 1
+test_batch_size: 1
+gpu_ids: 0
+test_epoch: 200
+epoch: 200
+niter: 100
+niter_decay: 100
+lr_generator: 0.0002
+lr_discriminator: 0.0002
+gan_mode: lsgan
+pool_size: 50
+
+
+# model structure related configs
+model: tcgan
+input_nc: 3
+output_nc: 3
+generator_channels_base: 64
+num_resblocks: 9
+discriminator_channels_base: 64
+norm: instance
+
+# dataset and preprocess options
+dataset_mode: unaligned
+dataroot: datasets/data/USR
+img_size: 256
+crop_scale: 1.12
+add_colorjit: False
+flip: True
+
+# non-model specific & basic configs
+checkpoints_dir: checkpoints
+results_dir: testing
+save_epoch_freq: 5
+init_type: normal
+init_gain: 0.02
+lr_policy: linear
+use_visdom: True
+display_freq: 100
+display_winsize: 256
+display_ncols: 3
+display_id: 1
+display_server: http://localhost
+display_env: main
+display_port: 8097
+update_html_freq: 1000
+print_freq: 100
+num_threads: 8
+verbose: False
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
