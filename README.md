@@ -42,7 +42,7 @@ Then modify the dataset to the structure of ```TRAIN_A,TRAIN_B,TEST_A and TEST_B
     - Run ```python run.py``` for testing, and the test result will be saved in ```checkpoints/tcgan_usr256/testing```.
    
 ## Testing with Pretrained Model
- - You can download the pretrained model ([TianYiCloud](https://这里放置USR数据集下的天翼云预训练模型) or [BaiduCloud](https://这里放置USR数据集下的百度云预训练模型)) of TC-GAN under USR dataset. 
+ - You can download the pretrained model ([TianYiCloud](https://cloud.189.cn/t/vU7F73A3m2me) or [BaiduCloud](https://pan.baidu.com/s/1NxpO0Ub8KJSg1m4NiRowKw), extraction code: h3zg) of TC-GAN under USR dataset. 
  And put the ```tcgan_usr256``` and ```classifier.pkl``` under the ```checkpoints\``` folder and root directory respectively.
  - You need to modify the ```configs/tcgan_usr256.yaml``` file and change the status option from train to test.
  - Run ```python run.py``` for testing, and the test result will be saved in ```checkpoints/tcgan_usr256/testing```.
