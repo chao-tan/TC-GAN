@@ -1,11 +1,11 @@
 # Unsupervised Shadow Removal using Target-Consistency Generative Adversarial Network
 
 
-by [Chao Tan](https://这里放置作者的主页), Xin Feng        
+by [Chao Tan](https://chao-tan.gitee.io), Xin Feng        
 
-This repository contains the source code and pretrained model for our TC-GAN, provided by [Chao Tan](https://这里放置作者个人主页).  
-The paper is avaliable for download [here](https://这里放置论文的arxiv下载链接).
-Click [here](https://这里放置论文的主页链接) for more details.
+This repository contains the source code and pretrained model for our TC-GAN, provided by [Chao Tan](https://chao-tan.gitee.ios).  
+The paper is avaliable for download [here](https://arxiv.org/abs/2010.01291).
+Click [here](https://chao-tan.gitee.io/projects/tc-gan/project-page.html) for more details.
 ***
 
 ## Dataset
