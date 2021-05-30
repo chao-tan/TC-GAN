@@ -3,7 +3,7 @@
 
 by [Chao Tan](https://chao-tan.gitee.io), Xin Feng        
 
-This repository contains the source code and pretrained model for our TC-GAN, provided by [Chao Tan](https://chao-tan.gitee.ios).  
+This repository contains the source code and pretrained model for our TC-GAN, provided by [Chao Tan](https://chao-tan.gitee.io).  
 The paper is avaliable for download [here](https://arxiv.org/abs/2010.01291).
 Click [here](https://chao-tan.gitee.io/projects/tc-gan/project-page.html) for more details.
 ***
